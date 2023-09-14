@@ -1,6 +1,6 @@
 import requests
 
 
-googleHome = requests.get("https://www.google.com/")
+sourcecode = requests.get("https://raw.githubusercontent.com/James-Laidlaw/CMPUT-404-lab-1/main/getGoogle.py")
 
-print(googleHome)
+print(sourcecode.content)
